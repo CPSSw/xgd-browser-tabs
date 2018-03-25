@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>xgd-browser-tabs demo</title>
+
+  <script src="../../webcomponentsjs/webcomponents-loader.js"></script>
+
+  <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+  <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+  <link rel="import" href="../xgd-browser-tabs.html">
+
+  <custom-style>
+    <style is="custom-style" include="demo-pages-shared-styles">
+      .colorized,
+      .colorized chrome-tab {
+        --tabs-background-color: rgb(90, 129, 167);
+        --tabs-add-hover-color: rgb(165, 189, 213);
+        --tab-background-color: rgb(58, 89, 119);
+        --tab-selected-color: rgb(165, 189, 213);
+        --tab-selected-text: black;
+        --tab-hover-color: rgb(58, 110, 162);
+        color: white;
+      }
+    </style>
+  </custom-style>
+</head>
+
+<body>
+  <div class="vertical-section-container centered">
+    <h3>Basic xgd-browser-tabs demo</h3>
+    <demo-snippet>
+      <template>
+        <xgd-browser-tabs class="colorized" extendable selected="1">
+          <xgd-browser-tab icon="https://www.polymer-project.org/images/logos/p-logo-32.png" title="Tab title"></xgd-browser-tab>
+          <xgd-browser-tab icon="https://assets-cdn.github.com/favicon.ico" title="Tab title"></xgd-browser-tab>
+          <xgd-browser-tab title="Tab title"></xgd-browser-tab>
+          <xgd-browser-tab title="Tab title"></xgd-browser-tab>
+        </xgd-browser-tabs>
+      </template>
+    </demo-snippet>
+  </div>
+</body>
+
+</html>
