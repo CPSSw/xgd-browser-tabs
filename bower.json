@@ -1,6 +1,17 @@
 {
   "name": "xgd-browser-tabs",
   "main": "xgd-browser-tabs.html",
+  "version": "1.0",
+  "private": false,
+  "authors": [
+    "XGDFalcon LLC",
+    "xgdfalcon@gmail.com"
+  ],
+  "keywords": [
+    "element-collection",
+    "web-components",
+    "polymer"
+  ],
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
     "iron-flex-layout": "^2.0.3",
