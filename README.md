@@ -19,7 +19,7 @@ Inspired by the project [chrome-tabs][1] by @zedesk, this project aims to create
 ```
 -->
 
-The component is licensed under the [ISC License](LICENSE.md)
+The component is licensed under the [MIT License](LICENSE.md)
 
 Demo and doc are available on https://www.webcomponents.org/element/XGDElements/xgd-browser-tabs
 
